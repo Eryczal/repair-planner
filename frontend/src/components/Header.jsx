@@ -48,7 +48,7 @@ function Header() {
       >
         <span className="text-sm font-semibold leading-6 text-slate-100">
           <Link to={"/"} className="text-2xl font-bold mr-10">
-            Repair Planner
+            RepairPlanner
           </Link>
           {/* {user && `Zalogowany: ${user.name}`} */}
           {user && (
