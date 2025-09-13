@@ -65,7 +65,7 @@ function Login() {
   }
 
   return (
-    <Tabs defaultValue={defaultValue} className="w-[400px]">
+    <Tabs defaultValue={defaultValue}>
       <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="login" onClick={() => handleTabs("login")}>
           Zaloguj
